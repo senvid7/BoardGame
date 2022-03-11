@@ -1,0 +1,177 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	background-color: black;
+	opacity: 0.95;
+}
+nav li button{
+	text-decoration:none;
+	font-weight:bold;
+	display:block;
+	padding:30px 60px;
+	color:#FFF;
+	background:#B94B6A;
+
+}
+button.cato{
+	position:absolute;
+	top:80px;
+	left:39px;
+	background-color:transparent;
+	border:none;
+	cursor:pointer;
+}
+body {
+	background: url(../images/bac1.png) no-repeat;
+	margin: 0;
+	padding: 0;
+	font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴPro W3", "メイリオ", Meiryo, "MS　Pゴシック", sans-serif;
+}
+.daoju{
+	margin-left: 0px;
+	opacity: 0.9;
+	width: 28%;
+	float: left;
+}
+.red{
+	width: 45%;
+	height: 70px;
+	background-color: rgb(255,9,52);
+}
+
+.green{
+	width: 30%;
+	height: 70px;
+	background-color: rgb(60,234,54);
+
+}
+.blue{
+	width: 30%;
+	height: 70px;
+	background-color: rgb(55,46,179);
+}
+.purple{
+	width: 30%;
+	height: 70px;
+	background-color:rgb(123,37,183);
+}
+.yellow{
+	width: 30%;
+	height: 70px;
+	background-color: yellow;
+}
+.tbody{
+	margin-top: 60px;
+
+}
+.table {
+	border-collapse: collapse;
+	opacity: 0.9;
+}
+
+.table td
+{
+	width: 100px;
+	border: 1px solid #ddd;
+	opacity:0.87;
+}
+header {
+	margin: 0px auto;
+	background-color: rgb(11,187,150);
+	width: 100%;
+	height: 150px;
+	opacity: 0.92;
+}
+header h1 {
+	letter-spacing:7px;
+	padding-top: 17px;
+	text-align: center;
+	margin-top: 0;
+	color: white;
+	font-size: 85px;
+}
+.list{
+	background-color:transparent;
+	border:none;
+}
+.lbody{
+	position:absolute;
+	top:115px;
+	right:0%;
+	opacity: 0.98;
+
+}
+.listw{
+	padding-top: 4px;
+	margin-left: 2%;
+	color: white;
+}
+nav span{
+	float:right;
+	margin-right: 270px;
+}
+
+.help{
+	float: right;
+	margin-right: 2%;
+	color: white;
+	background-color: #9900FF;
+	width: 7%;
+	height: 20%;
+	text-align: center;
+	line-height: 180%;
+
+}
+    .msg{
+        width:50%;
+        position: fixed;
+        z-index:999;
+        top: 30%;
+        margin-top:-80px;
+        left:25%;
+        margin-left:-133px;
+        background:#fff;
+        box-shadow:5px 5px 8px rgb(255,0,114);
+        font-size:17px;
+        color:#666;
+        border:1px solid rgb(1,225,223);
+        text-align: center;
+        line-height: 2rem;
+        display:inline-block;
+        padding-bottom:20px;
+        border-radius:2px;
+    }
+    #msg_top{
+        background:rgb(11,187,150);
+        padding:5px 15px 5px 20px;
+        text-align:center;
+        opacity: 0.9;
+    }
+    #msg_top span{
+        font-size:22px;
+        float:right;
+        cursor:pointer;
+    }
+    #msg_cont{
+        padding:15px 20px 20px;
+        color: rgb(255,0,114);
+        text-align:left;
+        margin-left:13px; 
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #msg_clear{
+        display:inline-block;
+        color:#fff;
+        padding:1px 15px;
+        background:rgb(11,187,150);
+        border-radius:2px;
+        float:right;
+        margin-right:15px;
+        cursor:pointer;
+    }
+    .helpP{
+    	width:80%;
+    }
